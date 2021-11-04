@@ -35,7 +35,9 @@ public class MissionServiceImplTest {
 		Mission mission = new Mission("Mission2","Lorem Ipsum dolore");
 		iMissionService.addMission(mission);
 		assertThat(mission.getName()).isEqualTo("Mission2");
-	} 
+	
+	}
+
 	
 	/*	@Test
 	public void testDisplayMissions() throws ParseException{
