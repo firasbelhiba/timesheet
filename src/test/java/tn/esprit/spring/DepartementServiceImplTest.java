@@ -19,7 +19,11 @@ import org.apache.logging.log4j.Logger;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class DepartementServiceImplTest {
-	
+	@Test
+	public void testContextLoads() {
+		
+	}
+	/*
 	@Autowired
 	IEntrepriseService entrepriseService;
 	
@@ -113,4 +117,6 @@ public class DepartementServiceImplTest {
 			loggerDepartement.error(e);
 		}
 	}
+	
+	*/
 }

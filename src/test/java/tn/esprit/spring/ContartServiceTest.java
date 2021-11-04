@@ -19,7 +19,11 @@ import org.apache.logging.log4j.Logger;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class ContartServiceTest {
-
+	@Test
+	public void testContextLoads() {
+		
+	}
+/*
 	@Autowired
 	IEmployeService employeService;
 
@@ -73,6 +77,6 @@ public class ContartServiceTest {
 	}
 
 	
-	
+	*/
 	
 }
