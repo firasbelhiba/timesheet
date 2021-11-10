@@ -37,11 +37,7 @@ public class MissionServiceImplTest {
 		assertThat(mission.getName()).isEqualTo("Mission2");
 	
 	}
-	/*test*/
-	/*test*/
-	/*test*//*test*/
-	/*test*/
-		/*test*/	/*test*/	/*test*/
+
 	
 	/* webhook */
 	/*	@Test
